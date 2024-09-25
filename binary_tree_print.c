@@ -2,7 +2,14 @@
 #include <stdio.h>
 #include <stddef.h>
 
-/* Helper function to print the tree */
+/**
+ * binary_tree_print - Prints a binary tree
+ * @tree: Pointer to the root node of the tree to print
+ *
+ * Description: This function is used to print a binary tree structure
+ * in a formatted way, visually representing the parent and child nodes.
+ */
+ 
 void binary_tree_print(const binary_tree_t *tree)
 {
 if (!tree)
