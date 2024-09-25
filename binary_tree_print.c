@@ -22,4 +22,3 @@ printf("(%03d) right: (%03d)\n", tree->n, tree->right->n);
 binary_tree_print(tree->left);
 binary_tree_print(tree->right);
 }
-l
