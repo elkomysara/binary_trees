@@ -9,7 +9,6 @@
  * Description: This function is used to print a binary tree structure
  * in a formatted way, visually representing the parent and child nodes.
  */
- 
 void binary_tree_print(const binary_tree_t *tree)
 {
 if (!tree)
@@ -23,3 +22,4 @@ printf("(%03d) right: (%03d)\n", tree->n, tree->right->n);
 binary_tree_print(tree->left);
 binary_tree_print(tree->right);
 }
+l
