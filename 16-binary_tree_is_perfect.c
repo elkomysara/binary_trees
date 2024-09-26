@@ -46,5 +46,5 @@ size_t height = binary_tree_height(tree);
 size_t size = binary_tree_size(tree);
 
 /* A perfect binary tree has 2^height - 1 nodes */
-return ((1 << height) - 1 == size);
+return ((size_t)((1 << height) - 1) == size);
 }
