@@ -1,4 +1,5 @@
 #include "binary_trees.h"
+#include <stdlib.h>  /* Include stdlib.h for the free function */
 
 /**
 * binary_tree_delete - Deletes an entire binary tree
@@ -13,6 +14,6 @@ return;
 binary_tree_delete(tree->left);
 binary_tree_delete(tree->right);
 
-/* Free the node */
+/* Free the current node */
 free(tree);
 }
